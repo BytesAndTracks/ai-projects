@@ -29,6 +29,16 @@
       "data": "29/05/2026 21:05",
       "pergunta": "eu tenho animais de estimação? se sim, quantos?",
       "resposta": "Sim, você tem 3 gatos. Eles são o Fred, Neném e Julie."
+    },
+    {
+      "data": "29/05/2026 21:12",
+      "pergunta": "quais são as últimas notícias sobre inteligência artificial?",
+      "resposta": "Desculpe, não consegui encontrar nenhuma notícia relevante sobre inteligência artificial na web atualmente."
+    },
+    {
+      "data": "29/05/2026 21:15",
+      "pergunta": "qual é o preço do bitcoin hoje?",
+      "resposta": "{\"acao\": \"resposta_final\", \"parametro\": \"{\"}{\"acao\": \"resposta_final\", \"parametro\": \"US$ 77.370\"}"
     }
   ],
   "fatos": {

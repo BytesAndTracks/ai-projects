@@ -18,8 +18,20 @@ def calcular(expressao: str) -> str:
 def data_atual() -> str:
     return datetime.now().strftime("%d/%m/%Y %H:%M")
 
+from ddgs import DDGS
+
 def buscar_web(termo: str) -> str:
-    return f"Busca simulada para '{termo}' — será conectada na próxima etapa."
+    try:
+        with DDGS() as ddgs:
+            resultados = list(ddgs.text(termo, max_results=3))
+        if not resultados:
+            return "Nenhum resultado encontrado."
+        partes = []
+        for r in resultados:
+            partes.append(f"Título: {r['title']}\nResumo: {r['body']}\nURL: {r['href']}\n")
+        return "\n".join(partes)
+    except Exception as e:
+        return f"Erro na busca: {e}"
 
 def lembrar_fato(texto: str) -> str:
     # espera formato "chave: valor"
