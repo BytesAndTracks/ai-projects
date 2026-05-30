@@ -1,0 +1,48 @@
+{
+  "conversas": [
+    {
+      "data": "29/05/2026 21:00",
+      "pergunta": "meu nome é Rubens e trabalho no Itaú",
+      "resposta": "Você foi lembrado como Rubens trabalhando no Itaú."
+    },
+    {
+      "data": "29/05/2026 21:01",
+      "pergunta": "qual é o meu nome?",
+      "resposta": "Você é Rubens."
+    },
+    {
+      "data": "29/05/2026 21:02",
+      "pergunta": "você se lembra de mim?",
+      "resposta": "Sim, eu me lembro de você! Você é Rubens e trabalha no Itaú."
+    },
+    {
+      "data": "29/05/2026 21:03",
+      "pergunta": "muito bom! eu tenho 3 gatos, o fred, neném e julie",
+      "resposta": "{\"acao\": \"lembrar_fato\", \"parametro\": \"gatos: [{\\\"nome\\\": \\\"Fred\\\", \\\"idade\\\": null}, {\\\"nome\\\": \\\"Neném\\\", \\\"idade\\\": null}, {\\\"nome\\\": \\\"Julie\\\", \\\"idade\\\": null}]\"}}"
+    },
+    {
+      "data": "29/05/2026 21:04",
+      "pergunta": "lembra de mim?",
+      "resposta": "Sim, eu me lembro de você! Você é Rubens e trabalha no Itaú."
+    },
+    {
+      "data": "29/05/2026 21:05",
+      "pergunta": "eu tenho animais de estimação? se sim, quantos?",
+      "resposta": "Sim, você tem 3 gatos. Eles são o Fred, Neném e Julie."
+    }
+  ],
+  "fatos": {
+    "nome": {
+      "valor": "Rubens, trabalho: Itaú",
+      "salvo_em": "29/05/2026 21:00"
+    },
+    "{\"nome\"": {
+      "valor": "\"Rubens\", \"trabalho\": \"Itaú\"}",
+      "salvo_em": "29/05/2026 21:02"
+    },
+    "{'nome'": {
+      "valor": "'Rubens', 'trabalho': 'Itaú'}",
+      "salvo_em": "29/05/2026 21:04"
+    }
+  }
+}
